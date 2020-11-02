@@ -21,6 +21,6 @@ public class Main {
         CheckBin algorithm = new CheckBin(items, binCapacity);
         algorithm.solvingBinPackingProblem();
         algorithm.showResults();
-        System.out.println("This is after committing");
+       // System.out.println("This is after committing");
     }
 }
