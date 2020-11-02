@@ -11,10 +11,14 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-     Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the bin capacity");
-        int binCapacity = scanner.nextInt();
+   /*  Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter the bin capacity");*/
+        Shape shape = new Shape();
+        shape.containerPrompt();
+        shape.containerVolume();
+        int binCapacity = shape.containerVolume();
         //insert three items here
+
         List<Integer> items = Arrays.asList(50,45,65);
         //insert the bin capacity
        // int binCapacity = 5;
