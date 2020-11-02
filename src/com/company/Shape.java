@@ -17,20 +17,20 @@ public class Shape implements shape3D{
     }
 
     public void containerPrompt(){
-        System.out.println("Please enter the length");
+        System.out.println("Please enter the containers length");
         this.length = scanner.nextInt();
-        System.out.println("Please enter the width");
+        System.out.println("Please enter the containers width");
         this.width = scanner.nextInt();
-        System.out.println("Please enter the height");
+        System.out.println("Please enter the containers height");
         this.height = scanner.nextInt();
     }
 
     public void objectPrompt(){
-        System.out.println("Please enter the length");
+        System.out.println("Please enter the object length");
         this.length = scanner.nextInt();
-        System.out.println("Please enter the width");
+        System.out.println("Please enter the object width");
         this.width = scanner.nextInt();
-        System.out.println("Please enter the height");
+        System.out.println("Please enter the object height");
         this.height = scanner.nextInt();
      }
 
